@@ -1,0 +1,4 @@
+@import "tailwindcss";
+
+:root{--ink:#17352d;--paper:#f5f1e8;--card:#fffdf7;--accent:#e85d3f;--mint:#b9ddce;--line:#d9d7cc;--muted:#64736c}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--font-body),sans-serif}.display{font-family:var(--font-display),serif;letter-spacing:-.04em}.grain{background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.035'/%3E%3C/svg%3E")}.shadow-card{box-shadow:0 28px 80px rgba(23,53,45,.13),0 2px 8px rgba(23,53,45,.06)}button,a{-webkit-tap-highlight-color:transparent}.focus-ring:focus-visible{outline:3px solid rgba(232,93,63,.35);outline-offset:3px}
